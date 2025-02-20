@@ -14,7 +14,6 @@ func main() {
 	http.HandleFunc("/hello", handlers.HelloHandler)
 	http.HandleFunc("/user", handlers.UserHandler)
 
-	// Start the server
 	port := "8080"
 	fmt.Println("Server is running on port", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
