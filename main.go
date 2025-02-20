@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/golang-sample-server/handlers"
+	"github.com/SirishaGopigiri/golang-sample-server/handlers"
 )
 
 func main() {
